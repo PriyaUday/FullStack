@@ -1,0 +1,32 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .sidenav {
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    margin: 0;
+    margin-top: 50px;
+     /* Set left position to 0 */
+  }
+  
+  /* .navbar {
+    height: 60px;
+    position: relative;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.1); 
+    color: #ff0000;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 10%;
+    z-index: 1000;
+  }
+   */
+  

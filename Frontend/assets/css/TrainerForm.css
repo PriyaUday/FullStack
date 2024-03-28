@@ -1,0 +1,154 @@
+.apply2617{
+    /* background-image: url(https://img.freepik.com/free-vector/watercolor-floral-background_79603-2272.jpg);  */
+    height: 150vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    /* margin-top: 1% */
+    /* background: rgb(130, 106, 251); */
+  }
+  /* Import Google font - Poppins */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+  .container2617 {
+  position: relative;
+  max-width: 710px;
+  width: 100%;
+  height:660px;
+  background: #e6f6f6c3;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom:39%;
+  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .container2617 .hede7 {
+  font-size: 2.5rem;
+  color: #380303;
+  font-family: 'Satisfy',cursive;
+  text-align: center;
+  }
+  .container2617 .form2617 {
+  margin-top: 10px;
+  }
+  .form2617 .input-box2617 {
+  width: 100%;
+  margin-top: 1px;
+  }
+  .input-box2617 label {
+  color: #333;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .input-box2617 input[type="number"] {
+    width: 100%; /* Adjust the width as needed */
+  }
+  .input-box2617 input[type="date"] {
+    width: 90%;
+     /* Adjust the width as needed */
+  }
+  
+  .form2617 :where(.input-box2617 input, .select-box2617) {
+  position: relative;
+  height: 40px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+  }
+  .form2617 :where(.input-box2617 input, .select-box2617) {
+  position: relative;
+  height: 40px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+  }
+  .input-box2617 input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .form2617 .column2617 {
+  display: flex;
+  column-gap: 16px;
+  width: 100%;
+  }
+  .form2617 .column2617 {
+    display: flex;
+    column-gap: 16px;
+    width: 100%;
+  }
+  .form2617 .gender-box2617 {
+  margin-top: 20px;
+  }
+  .gender-box2617 h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+  }
+  .form2617 :where(.gender-option2617, .gender2617) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  }
+  .form2617 .gender2617 {
+  column-gap: 5px;
+  }
+  .gender2617 input {
+  accent-color: rgb(130, 106, 251);
+  }
+  .form2617 :where(.gender2617 input, .gender2617 label) {
+  cursor: pointer;
+  }
+  .gender2617 label {
+  color: #707070;
+  }
+  
+  .form2617 .buttonenroll7 {
+  height: 55px;
+  width: 40%;
+  color: #0d0a0a;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  
+  cursor: pointer;
+  margin-left: 69%;
+  transition: all 0.2s ease;
+  background: rgb(118, 223, 231);
+  }
+ 
+  .homeiconfor{
+    width:50px;
+    height:50px;
+    padding-bottom:1160px;
+    margin-left:-360px;
+    margin-top: 200px;
+  }
+  
+  .select-box7{
+    height:50px;
+    width:380px;
+    position: relative;
+  height: 50px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  background-color:#ecf0f1;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+    
+  }

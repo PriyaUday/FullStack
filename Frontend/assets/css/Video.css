@@ -1,0 +1,61 @@
+/* VideoEntrance.css */
+.video1 {
+    background-color: grey;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+     /* 16:9 aspect ratio for responsive scaling */
+}
+
+.responsive-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+  }
+  
+  .arrow-overlay {
+    position: absolute;
+    top: 87%;
+    right: 0;
+    opacity:0.2;
+    transform: translateY(-50%);
+  }
+
+.srcimg{
+   
+    height: 50px;
+    width: 50px;
+    
+}
+/* Responsive styling using media queries */
+@media screen and (max-width: 600px) {
+    .login-button {
+        padding: 1em 1.5em; /* Adjust padding for smaller screens */
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .login-button {
+        right: 2%; /* Adjust the right position for even smaller screens */
+        top: 2%;  /* Adjust the top position for even smaller screens */
+        padding: 0.8em 1.5em; /* Adjust padding for even smaller screens */
+        font-size: 0.8rem; /* Adjust font size for even smaller screens */
+    }
+}
+.login-button:hover {
+    background-color: #262829; /* Change background color on hover */
+    transform: translateY(-5px); /* Move the button up slightly on hover */
+}

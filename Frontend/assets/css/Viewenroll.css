@@ -1,0 +1,59 @@
+/* View.css */
+
+.viewback1234 {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 10%;
+  background-image: url(https://img.freepik.com/free-vector/mandala-illustration_53876-81805.jpg?w=996&t=st=1707851857~exp=1707852457~hmac=e2ffd54635c11f2ef665d4077679339c2b382fa6fe78cb8011688f9734c5b758);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.views {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#view {
+  padding: 20px;
+}
+
+.admintable1234 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintable1234 th,
+.admintable1234 td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.admintable1234 th {
+  background-color: #c3991c;
+  color: #fff;
+}
+
+.admintable1234 tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admintable1234 tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.h2ad {
+  color: #7d7c7c;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

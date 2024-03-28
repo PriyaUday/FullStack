@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+.academy{
+   background-size:cover ;
+    background-repeat: no-repeat;
+    height:160vh;
+    background-image: url(https://img.freepik.com/free-vector/mandala-design-background_79603-2153.jpg?w=1060&t=st=1706291297~exp=1706291897~hmac=7cc37830c453ddfa420eef3efc265b62f4fd38a6b2567c7dae547efbe4c400de);
+}
+.homeicon{
+  height:50px;
+  width:50px;
+  margin-left: 5%;
+ 
+}
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+}
+.search1{
+  width:20%;
+  text-align: center;
+}
+.about-me1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    margin-bottom: 100px;
+   
+   
+  }
+.about-me p{
+  color: rgb(6, 6, 6);
+}
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+.about-me1 img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+.about-me-text {
+  font-size: 30px;
+  color: #594c00;
+  text-transform: uppercase;
+ 
+}
+
+.about-me-text p {
+  font-size: 40px;
+  color: #474900;
+  text-align:center;
+  margin: 10px 0;
+}
+/* CSS for footer */
+
+.eventside{
+  font-size:15px;
+  text-align: center;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+
+
+
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event {
+  width: 20%;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f2d6b3;
+  text-align: center; 
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+  
+}
+.event img {
+  width: 95%;
+  max-width: 95%;
+  height: auto;
+  border-radius: 10px; 
+  height: 200px;
+  object-fit: cover;
+}
+.event p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px; 
+}
+.buttonview {
+  background-color: beige;
+  border-radius: 5px;
+  border-color: white;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 10px; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.buttonview:hover {
+  background-color:  #dcdcdc; 
+}

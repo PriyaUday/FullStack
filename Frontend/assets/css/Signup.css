@@ -1,0 +1,118 @@
+
+  
+  .signup-container12 {
+    display: flex;
+    height: 100vh;
+    
+  }
+  
+  .side-image12 {
+    flex: 1;
+    padding-left: 2%;
+    /* background: url('https://img.freepik.com/free-vector/silhouette-female-yoga-pose-against-mandala-design_1048-13082.jpg?w=740&t=st=1706265715~exp=1706266315~hmac=70e44f408d04bd8dd40cde61cd8937d5ae381f48b8ca7ce8f33af73bbaf285d2'); */
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .signup-form12 {
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    background-color: #ffffff;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000; /* Dark grayish blue */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #544901; /* Blue */
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group12 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #333; /* Dark gray */
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ecf0f1; /* Light gray */
+    border: 1px solid #bdc3c7; /* Lighter gray */
+    border-radius: 5px;
+    color: #333; /* Dark gray */
+  }
+  
+  .sc1 {
+    width: 100%;
+    padding: 15px;
+    background-color: #756c05;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sc1:hover {
+    background-color: #5c3f02;
+  }
+  
+  .social-login12 {
+    margin-top: 20px;
+  }
+  
+  .social-icons12 {
+    display: flex;
+    align-items: center;
+  }
+  .sign-in-message12 {
+    margin-top: 10px;
+    color: #555;
+    font-size: 15px;
+  }
+  .social-icons12 button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .error-message12 {
+    color: #ff1307; /* Yellow color */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .social-icons12 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons12 img:hover {
+    transform: scale(1.2);
+  }
+  @media only screen and (max-width: 600px) {
+    .login-form12 {
+      max-width: 100%;
+    }
+  }

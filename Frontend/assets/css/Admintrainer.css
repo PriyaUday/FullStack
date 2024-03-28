@@ -1,0 +1,335 @@
+/* 
+.adminaca {
+    position: relative;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .academic-heading {
+    color: rgb(62, 63, 2);
+    text-align: center;
+    padding-top:2%;
+    font-family: 'Satisfy',cursive;
+  }
+  
+  .form-modal {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color:beige;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .upad12{
+      background-color:beige;
+      border-radius: 100px;
+    box-shadow: rgba(60, 59, 1, 0.2) 0 -25px 18px -14px inset,rgba(143, 150, 7, 0.15) 0 1px 2px,rgba(171, 177, 53, 0.15) 0 2px 4px,rgba(109, 123, 5, 0.15) 0 4px 8px,rgba(187, 175, 44, 0.15) 0 8px 16px,rgba(229, 136, 21, 0.15) 0 16px 32px;
+
+      color: rgb(0, 1, 0);
+      cursor: pointer;
+      display: inline-block;
+      font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+      padding: 7px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      height:70px;
+      width: 150px;
+      margin-top:2%;
+      margin-left:38%;
+      font-size: 20px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    
+    
+
+      
+  }
+  .upview{
+    background-color:beige;
+    border-radius: 100px;
+    box-shadow: rgba(60, 59, 1, 0.2) 0 -25px 18px -14px inset,rgba(143, 150, 7, 0.15) 0 1px 2px,rgba(171, 177, 53, 0.15) 0 2px 4px,rgba(109, 123, 5, 0.15) 0 4px 8px,rgba(187, 175, 44, 0.15) 0 8px 16px,rgba(229, 136, 21, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    height:70px;
+    width: 200px;
+    margin-top:2%;
+    margin-left:5%;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+  
+  }
+  .upde{
+    background-color:beige;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    height:70px;
+    width: 150px;
+    margin-top:4%;
+    margin-left:17%;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+  
+  }
+  
+  .formbu174{
+    background-color:beige;
+    
+    box-shadow: rgba(52, 61, 0, 0.2) 0 -25px 18px -14px inset,rgba(127, 112, 0, 0.15) 0 1px 2px,rgba(97, 124, 0, 0.15) 0 2px 4px,rgba(87, 89, 0, 0.15) 0 4px 8px,rgba(161, 121, 0, 0.15) 0 8px 16px,rgba(187, 156, 44, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    
+    height:40px;
+    width: 80px;
+    margin-top:4%;
+    margin-left:17%;
+    font-size: 20px;
+    
+  
+  }
+  
+  .form-modal.update {
+  }
+  
+  .form-modal.delete {
+  }
+  .trainerdata{
+    height:20px;
+    
+  }
+  .trainerselect{
+    height:30px;
+    width:170px;
+    border-color:grey ;
+    background-color: #e7e1e1;;
+  } */
+
+  /* Admintrainer.css */
+  .adminaca {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .academic-heading {
+    color: rgb(62, 63, 2);
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .form-modal {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upad12 {
+    background-color: beige;
+    border-radius: 100px;
+    box-shadow: rgba(60, 59, 1, 0.2) 0 -25px 18px -14px inset, rgba(143, 150, 7, 0.15) 0 1px 2px, rgba(171, 177, 53, 0.15) 0 2px 4px, rgba(109, 123, 5, 0.15) 0 4px 8px, rgba(187, 175, 44, 0.15) 0 8px 16px, rgba(229, 136, 21, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    height: 70px;
+    width: 150px;
+    margin-top: 2%;
+    margin-left: 38%;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .upview {
+    background-color: beige;
+    border-radius: 100px;
+    box-shadow: rgba(60, 59, 1, 0.2) 0 -25px 18px -14px inset, rgba(143, 150, 7, 0.15) 0 1px 2px, rgba(171, 177, 53, 0.15) 0 2px 4px, rgba(109, 123, 5, 0.15) 0 4px 8px, rgba(187, 175, 44, 0.15) 0 8px 16px, rgba(229, 136, 21, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    height: 70px;
+    width: 200px;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .upde {
+    background-color: beige;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    height: 70px;
+    width: 150px;
+    margin-top: 4%;
+    margin-left: 17%;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  /* .formbu174 {
+    background-color: beige;
+    box-shadow: rgba(52, 61, 0, 0.2) 0 -25px 18px -14px inset, rgba(127, 112, 0, 0.15) 0 1px 2px, rgba(97, 124, 0, 0.15) 0 2px 4px, rgba(87, 89, 0, 0.15) 0 4px 8px, rgba(161, 121, 0, 0.15) 0 8px 16px, rgba(187, 156, 44, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    height: 40px;
+    width: 80px;
+    margin-top: 4%;
+    margin-left: 17%;
+    font-size: 20px;
+  }
+  
+   */
+   .formbu174 {
+    background-color: beige;
+    box-shadow: rgba(52, 61, 0, 0.2) 0 -25px 18px -14px inset, rgba(127, 112, 0, 0.15) 0 1px 2px, rgba(97, 124, 0, 0.15) 0 2px 4px, rgba(87, 89, 0, 0.15) 0 4px 8px, rgba(161, 121, 0, 0.15) 0 8px 16px, rgba(187, 156, 44, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    border-radius: 20%;
+    /* display: flex; */
+    display: inline-block;
+    justify-content: space-around; 
+    margin-right: 15px;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+  }
+  
+  .form-modal.update {
+    /* Add specific styles for 'Update' form */
+  }
+  
+  .form-modal.delete {
+    /* Add specific styles for 'Delete' form */
+  }
+  
+  .trainerdata {
+    height: 20px;
+  }
+  
+  .trainerselect {
+    height: 30px;
+    width: 170px;
+    border-color: grey;
+    background-color: #e7e1e1;
+  }
+  
+  /* New styles for the trainers list */
+  .trainers-list {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: beige; */
+    background-color: #fff;
+  
+  }
+  
+  .trainers-list h2 {
+    color: rgb(62, 63, 2);
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+  }
+ .trbox{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+ }
+ 
+.admintable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintable th,
+.admintable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.admintable th {
+  background-color: #c3991c;
+  color: #fff;
+}
+
+.admintable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admintable tbody tr:hover {
+  /* background-color: beige; */
+  background-color: beige;
+}

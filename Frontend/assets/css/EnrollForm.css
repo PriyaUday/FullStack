@@ -1,0 +1,146 @@
+.apply261{
+  background-image: url(https://img.freepik.com/free-vector/watercolor-floral-background_79603-2272.jpg); 
+  height: 150vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  /* background: rgb(130, 106, 251); */
+}
+.homeiconen{
+  padding-bottom: 2300%;
+  padding-left: 2160%;
+  height: 50px;
+  width:50px;
+}
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.container261 {
+position: relative;
+max-width: 710px;
+width: 100%;
+background: #f6e6eec3;
+padding: 25px;
+border-radius: 8px;
+margin-bottom: 3%;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container261 .hede {
+font-size: 2.5rem;
+color: #380303;
+font-family: 'Satisfy',cursive;
+text-align: center;
+}
+.container261 .form261 {
+margin-top: 10px;
+}
+.form261 .input-box261 {
+width: 100%;
+margin-top: 20px;
+}
+.input-box261 label {
+color: #333;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input-box261 input[type="number"] {
+  width: 100%; /* Adjust the width as needed */
+}
+.input-box261 input[type="date"] {
+  width: 90%;
+   /* Adjust the width as needed */
+}
+
+.form261 :where(.input-box261 input, .select-box261) {
+position: relative;
+height: 50px;
+width: 95%;
+outline: none;
+font-size: 1rem;
+color: #707070;
+margin-top: 8px;
+border: 1px solid #ddd;
+border-radius: 6px;
+padding: 0 15px;
+}
+.form261 :where(.input-box261 input, .select-box261) {
+position: relative;
+height: 50px;
+width: 95%;
+outline: none;
+font-size: 1rem;
+color: #707070;
+margin-top: 15px;
+border: 1px solid #ddd;
+border-radius: 6px;
+padding: 0 15px;
+}
+.input-box261 input:focus {
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form261 .column261 {
+display: flex;
+column-gap: 16px;
+width: 100%;
+}
+.form261 .column261 {
+  display: flex;
+  column-gap: 16px;
+  width: 100%;
+}
+.form261 .gender-box261 {
+margin-top: 20px;
+}
+.gender-box261 h3 {
+color: #333;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 8px;
+}
+.form261 :where(.gender-option261, .gender261) {
+display: flex;
+align-items: center;
+column-gap: 50px;
+flex-wrap: wrap;
+}
+.form261 .gender261 {
+column-gap: 5px;
+}
+.gender261 input {
+accent-color: rgb(130, 106, 251);
+}
+.form261 :where(.gender261 input, .gender261 label) {
+cursor: pointer;
+}
+.gender261 label {
+color: #707070;
+}
+.address261 :where(input, .select-box26) {
+margin-top: 15px;
+}
+.form261 .buttonenroll {
+height: 75px;
+width: 40%;
+color: #0d0a0a;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 30px;
+border: none;
+
+cursor: pointer;
+margin-left: 130%;
+transition: all 0.2s ease;
+background: rgb(231, 118, 143);
+}
+.form261 button:hover {
+background: rgb(250, 104, 56);
+}
+
+@media screen and (max-width: 500px) {
+.form261 .column261 {
+  flex-wrap: wrap;
+}
+.form261 :where(.gender-option261, .gender261) {
+  row-gap: 15px;
+}
+}

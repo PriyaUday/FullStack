@@ -1,0 +1,60 @@
+/* View.css */
+
+.viewback5678 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+    padding-top: 10%;
+    background-image: url(https://img.freepik.com/free-vector/golden-flowers-background-hand-drawn_79603-1545.jpg?w=1060&t=st=1707855437~exp=1707856037~hmac=360490d92e676a3b3fb8d89804e3692a5bb687e160bca4ae964c251d5e7b88d2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    overflow-y: auto; /* Allow vertical scrolling */
+  }
+  
+  .views1234 {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  #view {
+    padding: 20px;
+  }
+  
+  .admintable5678 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .admintable5678 th,
+  .admintable5678 td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .admintable5678 th {
+    background-color: #8e7d00;
+    color: #fff;
+  }
+  
+  .admintable5678 tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .admintable5678 tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .h2ad {
+    color: #7d7c7c;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  

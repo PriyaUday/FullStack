@@ -1,0 +1,109 @@
+/* styles.css */
+.tgbg {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('background-image.jpg'); Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+        position: absolute;
+     
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-image: url(https://img.freepik.com/free-photo/sunset-aegean-sea-coast-ship-land-distance-water-greece_1268-16901.jpg?w=1380&t=st=1706291956~exp=1706292556~hmac=15db882d51e2e255f12567f6318fba70d14098d79377f35a2323fda5ce16b373); */
+        /* background-image:url(https://img.freepik.com/free-photo/blurred-background-abstract-nature-green-blurred-background-with-bokeh-spring-season-vintage-filtered-image_1253-1646.jpg?w=1060&t=st=1706248844~exp=1706249444~hmac=7573c15a652eaf41fc3bf749321bc43a0664984dd57d87a4cd5057d20a9f8492); */
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+  }
+ 
+
+.button1345 {
+  background-color:rgb(188, 226, 244);
+  border-radius: 100px;
+  /* box-shadow: rgba(187, 177, 44, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px; */
+  color: rgb(0, 1, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Satisfy',cursive;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  height:90px;
+  width: 300px;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 14%;
+  margin-left:77%;
+}
+.homeicontran{
+    width:50px;
+    height:50px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+.button1345:hover {
+  box-shadow: rgba(243, 236, 224, 0.35) 0 -25px 18px -14px inset,rgba(117, 130, 122, 0.25) 0 1px 2px,rgba(70, 73, 71, 0.25) 0 2px 4px,rgba(94, 95, 94, 0.25) 0 4px 8px,rgba(209, 228, 216, 0.25) 0 8px 16px,rgba(129, 135, 131, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+} 
+
+
+.admintable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintable th,
+.admintable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.admintable th {
+  background-color: #c3991c;
+  color: #fff;
+}
+
+.admintable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+ .trbox{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+ } 
+ 
+.admintable tbody tr:hover {
+  /* background-color: beige; */
+  background-color: beige;
+}
+.formbu174 {
+  background-color: beige;
+  box-shadow: rgba(52, 61, 0, 0.2) 0 -25px 18px -14px inset, rgba(127, 112, 0, 0.15) 0 1px 2px, rgba(97, 124, 0, 0.15) 0 2px 4px, rgba(87, 89, 0, 0.15) 0 4px 8px, rgba(161, 121, 0, 0.15) 0 8px 16px, rgba(187, 156, 44, 0.15) 0 16px 32px;
+  color: rgb(0, 1, 0);
+  cursor: pointer;
+  border-radius: 20%;
+  /* display: flex; */
+  display: inline-block;
+  justify-content: space-around; 
+  margin-right: 15px;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+}

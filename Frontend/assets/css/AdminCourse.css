@@ -1,0 +1,324 @@
+/* .course-details-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .course-heading {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    position: relative;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .add-button {
+    margin-bottom: 10px;
+  }
+  
+  .course-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .course-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .course-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .course-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+   */
+
+
+
+ /* AdminCourse.css */
+
+/* Add the following styles at the end of your CSS file */
+/* AdminCourse.css */
+
+/* Common styles */
+body {
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  /* Course Details Container */
+  .course-details-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .course-heading {
+    color: rgb(25, 105, 33);
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add Course Button */
+  .upad {
+    background-color: beige;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px,
+      rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+      rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: rgb(0, 1, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    height: 70px;
+    width: 150px;
+    margin-top: 1%;
+    margin-left: 13%;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .upad:hover {
+    background-color: #dcdcdc;
+  }
+  
+  /* Course Form */
+  .course-form {
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .course-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .course-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .course-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Course Card */
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .del-up{
+    display: flex;
+    justify-content: space-around; 
+  }
+  .course-card {
+    background-color: #f2d6b3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .small-button {
+    background-color: beige;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .small-button:hover {
+    background-color: #dcdcdc;
+  }
+  
+  /* Form Modal */
+  .form-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 1000; /* Higher z-index to overlay other elements */
+  }
+  
+  .form-modal h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Update Form */
+  .form-modal form {
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .form-modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-modal input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .form-modal button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-modal button:hover {
+    background-color: #45a049;
+  }
+  

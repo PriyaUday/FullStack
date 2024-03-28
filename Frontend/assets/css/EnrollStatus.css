@@ -1,0 +1,10 @@
+.enrollstatus{
+    background-image: url(https://img.freepik.com/premium-vector/diwali-festival-patterned-background-vector_53876-163777.jpg?w=826); 
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    /* background: rgb(130, 106, 251); */
+  }
